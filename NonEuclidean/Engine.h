@@ -12,7 +12,7 @@
 #if defined(_WIN32)
   #include <windows.h>
 #else
-  #include "SDL.h"
+  #include <SDL2/SDL.h>
 #endif
 #include <memory>
 #include <vector>
