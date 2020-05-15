@@ -60,7 +60,7 @@ void Player::Update() {
   }
   Move(moveF, moveL);
 
-#if 0
+#if 1
   //Jumping
   if (onGround && GH_INPUT->key[VK_SPACE]) {
     velocity.y += 2.0f * p_scale;

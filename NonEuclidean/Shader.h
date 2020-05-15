@@ -1,8 +1,7 @@
 #pragma once
+#include <epoxy/gl.h>
 #include <vector>
 #include <string>
-#include <GL/glew.h>
-#include <vector>
 
 class Shader {
 public:

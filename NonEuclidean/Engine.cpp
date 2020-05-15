@@ -9,7 +9,7 @@
 #if defined(_WIN32)
   #include <GL/wglew.h>
 #else
-  #include <GL/glew.h>
+  #include <epoxy/gl.h>
 #endif
 #include <cmath>
 #include <iostream>

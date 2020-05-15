@@ -1,6 +1,6 @@
 #pragma once
 #include "Camera.h"
-#include <GL/glew.h>
+#include <epoxy/gl.h>
 
 //Forward declaration
 class Portal;

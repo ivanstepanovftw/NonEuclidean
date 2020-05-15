@@ -1,6 +1,7 @@
 #include "Shader.h"
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
 Shader::Shader(const char* name) {
   //Get the file paths
@@ -83,8 +84,11 @@ GLuint Shader::LoadShader(const char* fname, GLenum type) {
     log.resize(logLength);
     glGetShaderInfoLog(id, logLength, &logLength, log.data());
 
+    auto a = std::string(fname) + ".log";
     std::ofstream fout(std::string(fname) + ".log");
+    std::cout<<"a: "<<a<<", "<<fout.good()<<std::endl;
     fout.write(log.data(), logLength);
+    fout.flush();
     return 0;
   }
 

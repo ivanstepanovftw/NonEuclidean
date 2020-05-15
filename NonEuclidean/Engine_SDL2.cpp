@@ -6,8 +6,7 @@
 #include "Level4.h"
 #include "Level5.h"
 #include "Level6.h"
-#include <SDL2/SDL.h>
-#include <GL/glew.h>
+#include <epoxy/gl.h>
 #include <cmath>
 #include <iostream>
 #include <algorithm>

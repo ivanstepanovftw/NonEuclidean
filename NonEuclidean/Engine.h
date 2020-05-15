@@ -5,14 +5,12 @@
 #include "Object.h"
 #include "Portal.h"
 #include "Player.h"
-#include "Timer.h"
 #include "Scene.h"
 #include "Sky.h"
-#include <GL/glew.h>
+#include <epoxy/gl.h>
 #if defined(_WIN32)
   #include <windows.h>
 #else
-  #include <SDL2/SDL.h>
 #endif
 #include <memory>
 #include <vector>

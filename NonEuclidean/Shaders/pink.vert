@@ -1,4 +1,4 @@
-#version 150
+#version 130
 
 //Globals
 uniform mat4 mvp;
